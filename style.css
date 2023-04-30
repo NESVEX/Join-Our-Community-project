@@ -16,7 +16,7 @@ p, h2, h3, h4 {
 
 .main {
     width: 600px;
-    height:400px;
+    height: 400px;
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     overflow: hidden;
     border-radius: 5px;
@@ -99,4 +99,17 @@ button {
 button:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+@media (max-width: 650px) {
+
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .monthly-subs, .why-us {
+        width: 100%;
+    }
+
 }
